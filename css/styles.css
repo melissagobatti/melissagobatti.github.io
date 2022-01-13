@@ -96,13 +96,38 @@
 #email-container a {
   color: var(--main-text-color);
   text-decoration: none;
+  margin-top: 10px;
   max-width: 225px;
 }
 
 #email-container ion-icon {
   color: var(--main-color);
   font-size: 20px;
+  margin-top: 10px;
   margin-right: 5px;
+  max-width: 20px;
+}
+
+#location-container {
+  display: flex;
+  justify-content: heigt;
+}
+
+#location-container ion-icon,
+#location-container a {
+  flex: 1 1 0;
+}
+
+#location-container a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  max-width: 225px;
+}
+
+#location-container ion-icon {
+  color: var(--main-color);
+  font-size: 20px;
+  margin-right: 20px;
   max-width: 20px;
 }
 
