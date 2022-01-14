@@ -210,6 +210,23 @@
   margin-right: 10px;
 }
 
+#skillstools-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.skillstools-box {
+  flex: 1 1 33%;
+  max-width: 100%;
+  margin-bottom: 35px;
+}
+
+.skillstools-box i {
+  font-size: 45px;
+  margin-right: 10px;
+}
+
 /* Mobile */
 @media(max-width: 450px) {
 
