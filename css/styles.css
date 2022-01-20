@@ -227,6 +227,30 @@
   margin-right: 10px;
 }
 
+#certificados-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.certificados-box {
+  flex: 1 1 33%;
+  max-width: 100%;
+  margin-bottom: 35px;
+}
+
+.certificados-box i {
+  font-size: 45px;
+  margin-right: 10px;
+}
+.certificados-title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-left: 5px solid var(--main-color);
+}
+
 /* Mobile */
 @media(max-width: 450px) {
 
